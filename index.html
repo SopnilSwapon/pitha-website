@@ -8,7 +8,28 @@
             color: blue;
             text-align: center;
         }
-            display: inline-flex;
+        .div-area{
+            display: flex;
+            height: 200px;
+            margin-left: 10px;
+        }
+        .picture-area{
+            margin-top: 0px;
+            margin-left: 400px;
+        }
+        h3{
+            color: brown;
+        }
+        a{
+            text-decoration: none;
+            margin-top: 20px;
+            margin-left: 15px;
+            background-color: tomato;
+            border-radius: 7px;
+            color:white;
+            border: 3px dashed blue; 
+            padding: 10 20px;
+                       
         }
     </style>
 </head>
@@ -47,13 +68,19 @@
         <p><label for="shutki"><input type="checkbox" name="vorta" id="vorta">shutki</label></p>
         <p><label for="sorisha"><input type="checkbox" name="vorta" id="sorisha">sorisha</label></p>
         <p><label for="morich"><input type="checkbox" name="vorta" id="morich"> morich</label></p></fieldset>
+
         
    
-    <p>Special Instruction</p>
+<section class="div-area">
+    <div><p>Special Instruction</p>
     <br>
 <textarea name="Instruction" id="" cols="30" rows="10"></textarea> 
 <br>   
 <button type="submit">submit</button>
-<button type="reset">Reset</button>
+<button type="reset">Reset</button></div>
+<div class="picture-area"><h3>making pitha picture</h3>
+    <img src="mqdefault.jpg" alt="">
+<a href="https://www.youtube.com/watch?v=YcXP-qfK5kU"> See making video</a></div>
+</section>
 </body>
 </html>
